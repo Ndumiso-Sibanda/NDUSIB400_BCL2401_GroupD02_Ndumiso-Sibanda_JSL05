@@ -1,52 +1,39 @@
-# [JSL05] Submission: Galaxy Playlist Generator
+Guardian Playlists Project
+Overview
+The Guardian Playlists project is a web app that makes playlists for each Guardian based on their favorite music genre. It uses HTML, CSS, and JavaScript to create a website that works well on both computers and phones.
 
-You will:
-1. Use the provided Starter Code Repository: https://github.com/CodeSpace-Academy/Module_5_StudentNo_Classcode_Group_Name-Surname_JSL05
-2. Code your solution.
-3. Commit changes to your GitHub repository.
-4. Submit the GitHub Repository Link to the LMS [JSL05] Submission Project Tab.
+What I Learned
+While working on this project, I learned how to:
 
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/pXXzN5GT6
+Change arrays and objects in JavaScript.
+Use the map() function to change data.
+Update the website while people use it.
+Make the website look good on different screens.
+Make sure the website is easy to use for everyone.
+Fix lists so they don't have dots.
+Challenges I Had
+When I was making this project, I had some problems:
 
-### Galaxy Playlist Generator
+Removing Dots: I had trouble getting rid of the dots in the playlists. To fix it, I used JavaScript to take away the dots by changing the style of the <ul> element.
 
-In this challenge, you'll combine your knowledge of JavaScript arrays and the `map()` function to create a personalized "Awesome Mix" playlist for each of the Guardians of the Galaxy. Your task is to filter and organize songs based on each Guardian's musical preference, displaying a playlist tailored just for them.
+Making Elements: It was hard to make new parts of the website for each Guardian's playlist. But I figured it out by using JavaScript to add new parts to the page.
 
-![alt text](JSL05_solution.png)
+Making the Website Fit: Making sure the website looks good on different screens was also tricky. I used CSS to change the layout based on the screen size.
 
-#### Instructions:
+Solutions I Found
+To solve these problems, I did the following:
 
-1. **Expand the Songs Array**: Add at least five songs to the `songs` array, each with `title`, `artist`, and `genre`.
-2. **Assign Preferences**: Complete the `guardians` object by assigning each Guardian their preferred music genre.
-3. **Generate Playlists**: Implement the `generatePlaylist` function. Use the `map()` function to create a personalized playlist for each Guardian based on their genre preference.
-4. **Display Playlists**: Dynamically create and append elements to the `#playlists` div to display each Guardian's playlist. Include the Guardian's name and their list of songs.
-5. **Test Your Application**: Ensure that your application correctly filters songs by genre for each Guardian and displays the playlists on the web page.
+Removing Dots Dynamically: I used JavaScript to remove the dots from the playlists, making the layout cleaner.
 
-## What You Need to Do:
+Using JavaScript for Elements: I used JavaScript to create and add new parts to the website for each Guardian's playlist, making the website more dynamic.
 
-1. Clone the provided Starter Code Repository to your local development environment (e.g., VSCode): https://github.com/CodeSpace-Academy/Module_5_StudentNo_Classcode_Group_Name-Surname_JSL05
-2. Open the cloned project in your code editor.
-3. Code your solution for each of the challenges as per the provided instructions.
-4. Commit your changes to your local Git repository with meaningful commit messages.
-5. Push your local Git repository to your GitHub account.
-6. Verify that the changes have been successfully pushed to your GitHub repository.
+Responsive Design: I used CSS to make the website adjust its layout based on the size of the screen, ensuring it looks good on all devices.
 
-## What You Need to Include:
+Goals I Achieved
+By completing this project, I achieved the following goals:
 
-1. Ensure that your code includes the necessary modifications to meet the challenge requirements.
-2. Your GitHub repository should contain the updated code files.
-
-## How We'll Assess Your Work:
-
-1. We will review your GitHub repository to ensure that it contains the updated code files.
-2. We will assess the modifications made to the code to verify that they effectively meet the challenge requirements.
-3. We will consider the commit history and meaningful commit messages to evaluate your coding process.
-
-This challenge will test your ability to manipulate arrays and objects, use the `map()` function for data transformation, and dynamically update the DOM based on data. Good luck, and may your mix be truly awesome!
-
-
-
-
-
-
-
+Made a working website that creates playlists based on user choices.
+Improved my skills in JavaScript and working with website elements.
+Learned more about CSS and how to make websites that look good on different devices.
+Solved problems by researching and trying different solutions.
+Overall, the Guardian Playlists project helped me learn more about web development and how to build websites that people can interact with easily.
